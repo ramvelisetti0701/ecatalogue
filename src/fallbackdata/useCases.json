@@ -1,0 +1,306 @@
+[{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b19"
+  },
+  "useCaseID": 1,
+  "processArea": "Lead to Cash",
+  "character": "Hawkeye",
+  "name": "Sales Order updates",
+  "processScenario": "Change Sales Inquiry details in ERP system",
+  "summaryAsIsProcess": "Manually change sales required delivery date and order quantity in sales inquiry in ERP system",
+  "automationScope": "Automatically change sales required delivery date and order quantity in sales inquiry in ERP system",
+  "functionality": "Sales Enquiry",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Hawkeye.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b1a"
+  },
+  "useCaseID": 2,
+  "processArea": "Lead to Cash",
+  "character": "Modok",
+  "name": "Outbound Delivery Updates",
+  "processScenario": "Change Outbound delivery details in ERP system",
+  "summaryAsIsProcess": "Manually change the 'Delivery quantity' and 'Planned goods movement date' of Outbound delivery in ERP system",
+  "automationScope": "Automatically change the 'Delivery quantity' and 'Planned goods movement date' of Outbound delivery in ERP system",
+  "functionality": "Outbound operations",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Modok.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b1b"
+  },
+  "useCaseID": 3,
+  "processArea": "Source to Settle",
+  "character": "Medusa",
+  "name": "GR IR Reconciliation",
+  "processScenario": "Reconcile Goods Receipt & Invoice Receipt",
+  "summaryAsIsProcess": "1)Manually download the data and reconcile the GR(goods receipt)/ & IR(Invoice receipt) amount and update the status",
+  "automationScope": "1) Automatically download the Transaction Detais, GR/IR reports",
+  "functionality": "GR/IR",
+  "rpaToolUsed": "Automation Anywhere",
+  "botImageSrc": "/images/bots/Medusa.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b1c"
+  },
+  "useCaseID": 4,
+  "processArea": "Source to Settle",
+  "character": "Thanos",
+  "name": "Create new vendor",
+  "processScenario": "Create new Vendor",
+  "summaryAsIsProcess": "Manually validate new vendor request and if valid, create new vendor in ERP system",
+  "automationScope": "Automatically validate new vendor request and if valid, create new vendor in ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Thanos.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b1d"
+  },
+  "useCaseID": 5,
+  "processArea": "Source to Settle",
+  "character": "Pheonix Force",
+  "name": "Block/Unblock vendor ",
+  "processScenario": "Block/Unblock vendor ",
+  "summaryAsIsProcess": "Manually block/unblock the vendors in the ERP system",
+  "automationScope": "Automatically block/unblock the vendors in the ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/PheonixForce.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b1e"
+  },
+  "useCaseID": 6,
+  "processArea": "Source to Settle",
+  "character": "Sandman",
+  "name": "PO Short Closure",
+  "processScenario": "Automate Purchase Order Short Closure",
+  "summaryAsIsProcess": "Manually Short Close the Purchase Order by checking the delivery completion Flag ",
+  "automationScope": "Automatically short close the purchase orders by checking the delivery completion Flag ",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/Sandman.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b1f"
+  },
+  "useCaseID": 7,
+  "processArea": "Lead to Cash",
+  "character": "Captain America",
+  "name": "SO creation via Excel",
+  "processScenario": "Convert Distributors (Excel) Orders to Sales Order ",
+  "summaryAsIsProcess": "Manually convert the stockist/distributor's purchase order which is in Excel format to sale order",
+  "automationScope": "Automatically convert the distributor's purchase order which is in Excel format to sale order",
+  "functionality": "Order management",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/CaptainAmerica.png",
+  "processFlowIcon": "/images/processFlows/icons/CaptainAmerica.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/CaptainAmerica.png",
+  "processMapVideo": "/videos/processMaps/CaptainAmerica.mp4"
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b20"
+  },
+  "useCaseID": 8,
+  "processArea": "Lead to Cash",
+  "character": "Quick Silver",
+  "name": "Customer Invoice Clearing w.r.t remittance advice",
+  "processScenario": "Automate Customer Invoice Clearing wrt Remittance advice",
+  "summaryAsIsProcess": "Manually compare the PDF remittance advice from retailer and clear invoices",
+  "automationScope": "Automatically compare the PDF remittance advice from retailer and clear invoices",
+  "functionality": "Accounts receivable",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/QuickSilver.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b21"
+  },
+  "useCaseID": 9,
+  "processArea": "IT Operations",
+  "character": "Quasar",
+  "name": "Core interface Monitoring",
+  "processScenario": "Monitor CIF Queue thresholds periodically to prevent choking",
+  "summaryAsIsProcess": "Manually monitor the CIF queue thresholds periodically to prevent choking",
+  "automationScope": "Automatically monitor the CIF queue thresholds periodically to prevent choking",
+  "functionality": "Productivity",
+  "rpaToolUsed": "Python",
+  "botImageSrc": "/images/bots/Quasar.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b22"
+  },
+  "useCaseID": 10,
+  "processArea": "IT Operations",
+  "character": "S.H.I.E.L.D.",
+  "name": "Backup Monitoring",
+  "processScenario": "Backup Monitoring ",
+  "summaryAsIsProcess": "Manually login into the database server and check the running status of db backup job. If the last run time is more than 60 mins then send an email to the respective team about the job hault status",
+  "automationScope": "Automatically login into the database server and check the running status of db backup job. If the last run time is more than 60 mins then send an email to the respective team about the job hault status",
+  "functionality": "Productivity",
+  "rpaToolUsed": "Python",
+  "botImageSrc": "/images/bots/S.H.I.E.L.D.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b23"
+  },
+  "useCaseID": 11,
+  "processArea": "IT Operations",
+  "character": "Thunderball",
+  "name": "Message & channel Monitoring",
+  "processScenario": "Message & Channel Monitoring",
+  "summaryAsIsProcess": "Manually upload the master data from a Non-SAP system using the Legacy System Migration Workbench (LSMW) into SAP system",
+  "automationScope": "Automatically upload the master data from a Non-SAP system using the Legacy System Migration Workbench (LSMW) into SAP system",
+  "functionality": "IT Operations",
+  "rpaToolUsed": "Automation Anywhere",
+  "botImageSrc": "/images/bots/Thunderball.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b24"
+  },
+  "useCaseID": 12,
+  "processArea": "Source to Settle",
+  "character": "Iron Man",
+  "name": "Outstanding PO alerts to Vendors",
+  "processScenario": "Notify Vendors on outstanding purchase orders",
+  "summaryAsIsProcess": "Manually check the outstanding/open purchase orders in the ERP system and email the vendors about the outstanding purchase orders with attaching the PO in pdf format",
+  "automationScope": "Automatically check the outstanding/open purchase orders in the ERP system and email the vendors about the outstanding purchase orders with attaching the PO in pdf format",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "Automation Anywhere",
+  "botImageSrc": "/images/bots/IronMan.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b25"
+  },
+  "useCaseID": 13,
+  "processArea": "Source to Settle",
+  "character": "Captain Marvel",
+  "name": "Release held POs",
+  "processScenario": "Release Hold Purchase Orders",
+  "summaryAsIsProcess": "Manually check the purchases orders that are on hold due to past dues or other reasons will have to be validated and Release the orders or provide the required information to the Representative or Manager for approval",
+  "automationScope": "Automatically check the purchases orders that are on hold due to past dues or other reasons will have to be validated and Release the orders or provide the required information to the Representative or Manager for approval",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "Automation Anywhere",
+  "botImageSrc": "/images/bots/CapainMarvel.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b26"
+  },
+  "useCaseID": 14,
+  "processArea": "Source to Settle",
+  "character": "North Star",
+  "name": "Inbound deliver date update",
+  "processScenario": "Updation of Goods arrival date in Inbound delivery",
+  "summaryAsIsProcess": "Manual sales order change in SAP ECC system",
+  "automationScope": "Bot receives order data in email attachment",
+  "functionality": "",
+  "rpaToolUsed": "",
+  "botImageSrc": "/images/bots/Northstar.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b27"
+  },
+  "useCaseID": 15,
+  "processArea": "Lead to Cash",
+  "character": "Rocket Raccoon",
+  "name": "Number range threshold alert",
+  "processScenario": "Number range failure notification email automation",
+  "summaryAsIsProcess": "Any billing document type number range exhaustion manually need to monitored and maintained after exhaustion",
+  "automationScope": "Before number range exhaustion system will alerts the IT and Business via email autimatically monitoring the range available ",
+  "functionality": "Order to Cash",
+  "rpaToolUsed": "",
+  "botImageSrc": "/images/bots/RocketRaccoon.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b28"
+  },
+  "useCaseID": 16,
+  "processArea": "Source to Settle",
+  "character": "Nebula",
+  "name": "Material master creation",
+  "processScenario": "Create Material in SAP-MM01",
+  "summaryAsIsProcess": "Manually Extract the data from input excel and punch the data in SAP material management module to introduce new material in SAP",
+  "automationScope": "Automatically Extract the data from input excel and punch the data in SAP material management module to introduce new material in SAP",
+  "functionality": "Material Management",
+  "rpaToolUsed": "Automation Anywhere",
+  "botImageSrc": "/images/bots/Nebula.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "648ae609937ed9acd77c2b29"
+  },
+  "useCaseID": 17,
+  "processArea": "Lead to Cash",
+  "character": "Doctor Octopus",
+  "name": "Release blocked EDI Orders",
+  "processScenario": "Release blocked EDI Orders",
+  "summaryAsIsProcess": "EDI order generated are blocked(Delivery block 07) on creation. Orders blocks to be released after pricing validation checks or to be sent for manual verification in case of validation failure.",
+  "automationScope": "EDI order generated are blocked(Delivery block 07) on creation. Orders blocks to be released after pricing validation checks or to be sent for manual verification in case of validation failure.",
+  "functionality": "OTC",
+  "rpaToolUsed": "RPA AA",
+  "botImageSrc": "/images/bots/DoctorOctopus.png",
+  "processFlowIcon": "",
+  "processFlowEnlarged": "",
+  "processMapVideo": ""
+}]

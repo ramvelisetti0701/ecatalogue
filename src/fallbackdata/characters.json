@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b2b"
+  },
+  "characterID": 1,
+  "character": "Hawkeye",
+  "botImageSrc": "/images/bots/Hawkeye.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b2c"
+  },
+  "characterID": 2,
+  "character": "Modok",
+  "botImageSrc": "/images/bots/Modok.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b2d"
+  },
+  "characterID": 3,
+  "character": "Medusa",
+  "botImageSrc": "/images/bots/Medusa.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b2e"
+  },
+  "characterID": 4,
+  "character": "Thanos",
+  "botImageSrc": "/images/bots/Thanos.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b2f"
+  },
+  "characterID": 5,
+  "character": "Pheonix Force",
+  "botImageSrc": "/images/bots/PheonixForce.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b30"
+  },
+  "characterID": 6,
+  "character": "Sandman",
+  "botImageSrc": "/images/bots/Sandman.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b31"
+  },
+  "characterID": 7,
+  "character": "Captain America",
+  "botImageSrc": "/images/bots/CaptainAmerica.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b32"
+  },
+  "characterID": 8,
+  "character": "Quick Silver",
+  "botImageSrc": "/images/bots/QuickSilver.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b33"
+  },
+  "characterID": 9,
+  "character": "Quasar",
+  "botImageSrc": "/images/bots/Quasar.png",
+  "processArea": "IT Operations"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b34"
+  },
+  "characterID": 10,
+  "character": "S.H.I.E.L.D.",
+  "botImageSrc": "/images/bots/S.H.I.E.L.D.png",
+  "processArea": "IT Operations"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b35"
+  },
+  "characterID": 11,
+  "character": "Thunderball",
+  "botImageSrc": "/images/bots/Thunderball.png",
+  "processArea": "IT Operations"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b36"
+  },
+  "characterID": 12,
+  "character": "Iron Man",
+  "botImageSrc": "/images/bots/IronMan.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b37"
+  },
+  "characterID": 13,
+  "character": "Captain Marvel",
+  "botImageSrc": "/images/bots/CapainMarvel.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b38"
+  },
+  "characterID": 14,
+  "character": "North Star",
+  "botImageSrc": "/images/bots/Northstar.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b39"
+  },
+  "characterID": 15,
+  "character": "Rocket Raccoon",
+  "botImageSrc": "/images/bots/RocketRaccoon.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b3a"
+  },
+  "characterID": 16,
+  "character": "Nebula",
+  "botImageSrc": "/images/bots/Nebula.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b3b"
+  },
+  "characterID": 17,
+  "character": "Doctor Octopus",
+  "botImageSrc": "/images/bots/DoctorOctopus.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "648ae629937ed9acd77c2b3c"
+  },
+  "characterID": 0,
+  "character": "",
+  "botImageSrc": "",
+  "processArea": ""
+}]
