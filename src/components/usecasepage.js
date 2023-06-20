@@ -1,5 +1,5 @@
-import React, { Suspense, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { Suspense, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import VideoOverlay from './videooverlay';
 import ImageOverlay from './imageoverlay';
 import fallbackData from '../fallbackdata/useCases.json';
@@ -12,9 +12,11 @@ function UseCasePage() {
 
     const filteredFallbackData = fallbackData.filter(useCase => useCase.character === character);
 
-    const [useCaseByCharacter, setuseCaseByCharacter] = useState([]);
+    //const [useCaseByCharacter, setuseCaseByCharacter] = useState([]);
 
-    useEffect(() => {
+    const useCaseByCharacter = filteredFallbackData[0];
+
+    //useEffect(() => {
         /* async function fetchData() { 
             try {
                 console.log("== BEFORE Call ==");
@@ -32,12 +34,12 @@ function UseCasePage() {
                 console.log('Fetch error : ', error);
                 //const fallbackData = require('../fallbackdata/useCases.json'); */
 
-                console.log("Filtered Data Length : " + filteredFallbackData.length);
-                setuseCaseByCharacter(filteredFallbackData[0]);
+                //console.log("Filtered Data Length : " + filteredFallbackData.length);
+                //setuseCaseByCharacter(filteredFallbackData[0]);
             /* }
         }
         fetchData(); */
-    }, [filteredFallbackData]); 
+    //}, [filteredFallbackData]); 
 
     const [isImageOpen, setIsImageOpen] = useState(false);
     const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -59,6 +61,10 @@ function UseCasePage() {
         <div>
             <div>
                 <h1>{character}</h1>
+                <div className='navbar'>
+                    <Link to={`/ecatalogue/characters/${useCaseByCharacter.processArea}`}>Back to the Use Cases Page</Link><br></br>
+                    <Link to="/ecatalogue">HomePage</Link>
+                </div>
                 <div className="image-title-container">
                     <div className="image-container">
                         <Suspense fallback={<div>Loading...</div>}>
@@ -105,12 +111,12 @@ function UseCasePage() {
                     </div>
                     {(useCaseByCharacter.processFlowIcon) ? (
                         <div className="body-item">
-                            <p><b>SAP Process Flow : </b> <img alt={character} className='icon' src={process.env.PUBLIC_URL + useCaseByCharacter.processFlowIcon} onClick={openImageOverlay} /></p>
+                            <p><b>Process Map : </b> <img alt={character} className='icon' src={process.env.PUBLIC_URL + useCaseByCharacter.processFlowIcon} onClick={openImageOverlay} /></p>
                         </div>
                     ) : null}
                     {(useCaseByCharacter.processMapVideo) ? (
                         <div className="body-item">
-                            <p><b>Process Map : </b> <img alt={character} className='icon' src={process.env.PUBLIC_URL + '/video.png'} onClick={openVideoOverlay} /> </p>
+                            <p><b>SAP Process Flow : </b> <img alt={character} className='icon' src={process.env.PUBLIC_URL + '/video.png'} onClick={openVideoOverlay} /> </p>
                         </div>
                     ) : null}
                 </div>

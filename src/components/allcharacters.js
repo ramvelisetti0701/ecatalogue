@@ -1,18 +1,11 @@
 import React, { Suspense } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import fallbackData from '../fallbackdata/characters.json';
 
 
-function CharacterPage() {
-    const { processArea } = useParams();
-
-    console.log("Process Area : " + processArea);
-
-    const filteredFallbackData = fallbackData.filter(character => character.processArea === processArea);
+function AllCharacters() {
     
-    //const [charsByProcessArea, setCharsByProcessArea] = useState([]);
-
-    const charsByProcessArea = filteredFallbackData;
+    const allCharacters = fallbackData;
 
     //useEffect(() => {
         /* async function fetchData() { 
@@ -41,17 +34,16 @@ function CharacterPage() {
 
     return (
         <div>
-            <h1>{ processArea } Characters/Use Cases</h1>
+            <h1>All Characters/Use Cases</h1>
             {/* <p>Character content for image {id}</p> */}
             <div className='navbar'>
                 <Link to="/ecatalogue">HomePage</Link><br></br>
             </div>
             <div className="char-image-grid">
-                {charsByProcessArea.map((character) => (
+                {allCharacters.map((character) => (
                     <Link key={character.characterID} to={`/ecatalogue/useCases/${character.character}`}>
                         <Suspense fallback={<div>Loading...</div>}>
-                            <img src={process.env.PUBLIC_URL + character.botImageSrc} alt={character.character} />
-                            <div className='image-title'>{character.character}</div>
+                            <img src={process.env.PUBLIC_URL + character.botImageSrc} alt={character.character} /> {character.character}
                         </Suspense>
                     </Link>
                 ))}
@@ -60,4 +52,4 @@ function CharacterPage() {
     );
 }
 
-export default CharacterPage;
+export default AllCharacters;

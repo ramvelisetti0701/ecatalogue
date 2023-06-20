@@ -2,13 +2,18 @@
 
 /* Primary Colors */
 :root {
+  background-image: url('/public/images/backgrounds/AdobeStock.jpeg');
+  background-size: cover;
   --primary-color: white ;
   --secondary-color: steelblue;
 }
 
+.homepage-container {
+  overflow-x: hidden;
+}
+
 /* Background Colors */
 body {
-  background-color: brown;
   margin: 30px;
 }
 
@@ -51,10 +56,19 @@ a:hover {
 }
 
 .image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 3fr);
+  display: flex;
+  grid-template-columns: repeat(8, 1fr);
   gap: 20px;
   text-align: center;
+  padding-bottom: 2px;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
+.image-title {
+  background-color: rgba(0, 0, 0, 0.486);
+  white-space: nowrap;
 }
 
 .char-image-grid {
@@ -65,7 +79,7 @@ a:hover {
 }
 
 .image-grid img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -186,7 +200,8 @@ video {
 }
 
 .img-container img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   display: flex;
 }
 
@@ -196,4 +211,32 @@ video {
   right: 10px;
   cursor: pointer;
   color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+}
+
+article {
+  width: 60%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border: solid 1px;
+  background-color: rgba(7, 7, 7, 0.459);
+}
+
+article p {
+  font-size: large;
+  font-family: monospace;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: justify;
 }
