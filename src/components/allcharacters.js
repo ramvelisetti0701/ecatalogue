@@ -34,7 +34,7 @@ function AllCharacters() {
 
     return (
         <div>
-            <h1>All Characters/Use Cases</h1>
+            <h1>Use Case</h1>
             {/* <p>Character content for image {id}</p> */}
             <div className='navbar'>
                 <Link to="/ecatalogue">HomePage</Link><br></br>
