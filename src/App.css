@@ -118,9 +118,11 @@ a:hover {
 }
 
 .title-box {
-  background-color: whitesmoke;
   margin-bottom: 8px;
   text-align: center;
+  background-color: rgba(7, 7, 7, 0.459);
+  color: aliceblue;
+  box-sizing: border-box;
 }
 
 .info-container {
@@ -130,15 +132,21 @@ a:hover {
 
 .info-box {
   flex: 1 1 auto;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   text-align: center;
+  background-color: rgba(7, 7, 7, 0.459);
+  color: aliceblue;
+  box-sizing: border-box;
   /* padding: 8px; */
 }
 
 .info-item {
   width: 150px;
   height: 50px;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: rgba(7, 7, 7, 0.459);
+  color: aliceblue;
+  box-sizing: border-box;
 }
 
 .body-container {
@@ -152,14 +160,18 @@ a:hover {
 }
 
 .body-item {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   padding-left : 4px;
   white-space: break-spaces;
   overflow: hidden;
   text-overflow: ellipsis;
+  background-color: rgba(7, 7, 7, 0.459);
+  color: aliceblue;
+  box-sizing: border-box;
 }
 
 .body-item p {
+  color: aliceblue;
   font-size: medium;
 }
 
