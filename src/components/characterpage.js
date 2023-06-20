@@ -41,7 +41,7 @@ function CharacterPage() {
 
     return (
         <div>
-            <h1>{ processArea } Characters/Use Cases</h1>
+            <h1>{ processArea } Use Case</h1>
             {/* <p>Character content for image {id}</p> */}
             <div className='navbar'>
                 <Link to="/ecatalogue">HomePage</Link><br></br>
