@@ -78,12 +78,24 @@ a:hover {
   text-align: center;
 }
 
+.char-img-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
 .image-grid img {
   max-width: 100%;
   height: auto;
 }
 
 .char-image-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.char-img-grid img {
   width: 100%;
   height: auto;
 }
