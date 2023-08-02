@@ -1,0 +1,189 @@
+[{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f0e"
+  },
+  "characterID": 1,
+  "character": "Hawkeye",
+  "botImageSrc": "/images/bots/Hawkeye.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f0f"
+  },
+  "characterID": 2,
+  "character": "Modok",
+  "botImageSrc": "/images/bots/Modok.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f10"
+  },
+  "characterID": 3,
+  "character": "Captain Marvel",
+  "botImageSrc": "/images/bots/CaptainMarvel.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f11"
+  },
+  "characterID": 4,
+  "character": "Doctor Octopus",
+  "botImageSrc": "/images/bots/DoctorOctopus.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f12"
+  },
+  "characterID": 5,
+  "character": "Iron Man",
+  "botImageSrc": "/images/bots/IronMan.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f13"
+  },
+  "characterID": 6,
+  "character": "Moon Knight",
+  "botImageSrc": "/images/bots/MoonKnight.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f14"
+  },
+  "characterID": 7,
+  "character": "Nebula",
+  "botImageSrc": "/images/bots/Nebula.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f15"
+  },
+  "characterID": 8,
+  "character": "Falcon",
+  "botImageSrc": "/images/bots/Falcon.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f16"
+  },
+  "characterID": 9,
+  "character": "Warlock",
+  "botImageSrc": "/images/bots/Warlock.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f17"
+  },
+  "characterID": 10,
+  "character": "Medusa",
+  "botImageSrc": "/images/bots/Medusa.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f18"
+  },
+  "characterID": 11,
+  "character": "North Star",
+  "botImageSrc": "/images/bots/NorthStar.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f19"
+  },
+  "characterID": 12,
+  "character": "Quasar",
+  "botImageSrc": "/images/bots/Quasar.png",
+  "processArea": "IT Operations"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f1a"
+  },
+  "characterID": 13,
+  "character": "Thanos",
+  "botImageSrc": "/images/bots/Thanos.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f1b"
+  },
+  "characterID": 14,
+  "character": "Pheonix Force",
+  "botImageSrc": "/images/bots/PheonixForce.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f1c"
+  },
+  "characterID": 15,
+  "character": "Sandman",
+  "botImageSrc": "/images/bots/Sandman.png",
+  "processArea": "Source to Settle"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f1d"
+  },
+  "characterID": 16,
+  "character": "Captain America",
+  "botImageSrc": "/images/bots/CaptainAmerica.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f1e"
+  },
+  "characterID": 17,
+  "character": "Quick Silver",
+  "botImageSrc": "/images/bots/QuickSilver.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f1f"
+  },
+  "characterID": 18,
+  "character": "Rocket Raccoon",
+  "botImageSrc": "/images/bots/RocketRaccoon.png",
+  "processArea": "Lead to Cash"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f20"
+  },
+  "characterID": 19,
+  "character": "S.H.I.E.L.D.",
+  "botImageSrc": "/images/bots/S.H.I.E.L.D.png",
+  "processArea": "IT Operations"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f21"
+  },
+  "characterID": 20,
+  "character": "Shang Chi",
+  "botImageSrc": "/images/bots/ShangChi.png",
+  "processArea": "Record to Report"
+},
+{
+  "_id": {
+    "$oid": "64b6a2b36e46d9ef99f78f22"
+  },
+  "characterID": 21,
+  "character": "Thunderball",
+  "botImageSrc": "/images/bots/Thunderball.png",
+  "processArea": "IT Operations"
+}]

@@ -1,6 +1,6 @@
 import React, { Suspense, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import VideoOverlay from './videooverlay';
+/* import VideoOverlay from './videooverlay'; */
 import ImageOverlay from './imageoverlay';
 import fallbackData from '../fallbackdata/useCases.json';
 
@@ -42,19 +42,24 @@ function UseCasePage() {
     //}, [filteredFallbackData]); 
 
     const [isImageOpen, setIsImageOpen] = useState(false);
-    const [isVideoOpen, setIsVideoOpen] = useState(false);
+    /* const [isVideoOpen, setIsVideoOpen] = useState(false); */
+    const sharepointUrl = useCaseByCharacter.processMapVideo;
 
     const openImageOverlay = () => {
         setIsImageOpen(true);
     };
     
-    const openVideoOverlay = () => { 
+    /* const openVideoOverlay = () => { 
         setIsVideoOpen(true);
+    }; */
+
+    const handleVideoLaunch = () => {
+        window.open(sharepointUrl, '_blank');
     };
 
     const closeOverlay = () => {
         setIsImageOpen(false);
-        setIsVideoOpen(false);
+        /* setIsVideoOpen(false); */
     };
 
     return ( 
@@ -116,12 +121,13 @@ function UseCasePage() {
                     ) : null}
                     {(useCaseByCharacter.processMapVideo) ? (
                         <div className="body-item">
-                            <p><b>SAP Process Flow : </b> <img alt={character} className='icon' src={process.env.PUBLIC_URL + '/video.png'} onClick={openVideoOverlay} /> </p>
+                            <p><b>SAP Process Flow : </b> <a href={ sharepointUrl } target="_blank" rel="noopener noreferrer" onClick={ handleVideoLaunch }><img alt={ character } className='icon' src={process.env.PUBLIC_URL + '/video.png'}/></a></p>
+                            {/* <p><b>SAP Process Flow : </b> <a href='https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EfKmwMXx2kVPlTyBw84jR3IBaxjZkL_VFfh8b3fb3neuyg?e=WI0Thh' target="_blank" rel="noopener noreferrer" onClick={openVideoOverlay}><img alt={character} className='icon' src={process.env.PUBLIC_URL + '/video.png'} onClick={openVideoOverlay} /></a></p> */}
                         </div>
                     ) : null}
                 </div>
                 {isImageOpen && <ImageOverlay imageData={ useCaseByCharacter } closeOverlay={closeOverlay} />}
-                {isVideoOpen && <VideoOverlay videoData={ useCaseByCharacter.processMapVideo } closeOverlay={closeOverlay} />}
+                {/* {isVideoOpen && <VideoOverlay videoData={ useCaseByCharacter.processMapVideo } closeOverlay={closeOverlay} />} */}
             </div>
         </div>
         

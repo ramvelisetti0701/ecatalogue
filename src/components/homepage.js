@@ -48,13 +48,13 @@ function HomePage() {
                             </Suspense>
                         </Link>
                     ))}
-                    <article>
-                        <p>Imagine a world where mundane, repetitive tasks are handled swiftly and flawlessly by virtual assistants, allowing your talented employees to focus on high-value tasks and use their creativity, problem-solving skills, and expertise towards tasks that truly matter.</p>
-                        <p>TCS has come out with “AUTOVENTION e-CATALOG”. It is a ONE STOP SHOP which has industry proven BOTs in different process areas. These VIRTUAL EMPLOYEES (BOTs) are available off the shelf. It is PICK AND DROP in the customers landscape and can be integrated seamlessly with existing application. By embracing these BOTs, organisations will see significant boost in OPERATIONAL EFFICIENCY, IMPROVED RELIABILITY, and ACCELERATED TURNAROUND TIMES.</p>
-                        <p>It empowers the organization to adapt to evolving market demands with agility and flexibility. It will liberate your employees to unleash their true potential, driving innovation, and fostering a culture of excellence within your organization.</p>
-                    </article>
                 </div>
             </div>
+            <article>
+                <p>Imagine a world where mundane, repetitive tasks are handled swiftly and flawlessly by virtual assistants, allowing your talented employees to focus on high-value tasks and use their creativity, problem-solving skills, and expertise towards tasks that truly matter.</p>
+                <p>TCS has come out with “AUTOVENTION e-CATALOG”. It is a ONE STOP SHOP which has industry proven BOTs in different process areas. These VIRTUAL EMPLOYEES (BOTs) are available off the shelf. It is PICK AND DROP in the customers landscape and can be integrated seamlessly with existing application. By embracing these BOTs, organisations will see significant boost in OPERATIONAL EFFICIENCY, IMPROVED RELIABILITY, and ACCELERATED TURNAROUND TIMES.</p>
+                <p>It empowers the organization to adapt to evolving market demands with agility and flexibility. It will liberate your employees to unleash their true potential, driving innovation, and fostering a culture of excellence within your organization.</p>
+            </article>
         </div>
     );
 }

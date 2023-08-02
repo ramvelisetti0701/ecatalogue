@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "64b6a3566e46d9ef99f78f3a"
+  },
+  "processID": 1,
+  "processArea": "IT Operations",
+  "imageSrc": "/images/processes/ITOperations.png"
+},
+{
+  "_id": {
+    "$oid": "64b6a3566e46d9ef99f78f3b"
+  },
+  "processID": 2,
+  "processArea": "Lead to Cash",
+  "imageSrc": "/images/processes/LeadToCash.png"
+},
+{
+  "_id": {
+    "$oid": "64b6a3566e46d9ef99f78f3c"
+  },
+  "processID": 3,
+  "processArea": "Source to Settle",
+  "imageSrc": "/images/processes/SourceToSettle.png"
+},
+{
+  "_id": {
+    "$oid": "64b6a3566e46d9ef99f78f3d"
+  },
+  "processID": 4,
+  "processArea": "Record to Report",
+  "imageSrc": "/images/processes/R2R.png"
+}]
