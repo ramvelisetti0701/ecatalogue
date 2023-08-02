@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkecatalogue=self.webpackChunkecatalogue||[]).push([[800],{800:function(e,a,c){c.r(a);c(791);var t=c(184);a.default=function(e){var a=e.videoData;return(0,t.jsx)("div",{children:(0,t.jsx)("video",{controls:!0,children:(0,t.jsx)("source",{src:"/ecatalogue"+a,type:"video/mp4"})})})}}}]);
-//# sourceMappingURL=800.98bb2c9b.chunk.js.map
