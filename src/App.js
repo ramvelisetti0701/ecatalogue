@@ -6,6 +6,7 @@ import UseCasePage from './components/usecasepage';
 import AllCharacters from './components/allcharacters';
 
 import './App.css'; // Import the CSS file
+import AllBots from './components/allbots';
 
 function App() {
     /*
@@ -70,6 +71,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/ecatalogue" element={<HomePage />} />
+          <Route path="/ecatalogue/allBots" element={<AllBots />} />
           <Route path="/ecatalogue/allCharacters" element={<AllCharacters />} />
           <Route path="/ecatalogue/characters/:processArea" element={<CharacterPage />} />
           <Route path="/ecatalogue/useCases/:character" element={<UseCasePage />} />

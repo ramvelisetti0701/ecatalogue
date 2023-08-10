@@ -21,6 +21,7 @@ body {
 h1 {
   color: aqua;
   font-size: 32px;
+  text-align: center;
 }
 
 p {
@@ -57,13 +58,15 @@ a:hover {
 
 .image-grid {
   display: flex;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  flex-wrap: wrap;
   gap: 20px;
   text-align: center;
   padding-bottom: 2px;
-  flex-direction: row;
-  align-items: center;
-  width: fit-content;
+  /* flex-direction: row; */
+  /* justify-content: center;
+  align-items: center; */
+  /* width: fit-content; */
 }
 
 .image-title {
@@ -73,7 +76,8 @@ a:hover {
 
 .content {
   display: flex;
-  flex-flow: row;
+  justify-content: center;
+  /* flex-flow: row; */
   /* grid-template-columns: repeat(2, 1fr); */
   padding: 10px;
 }
@@ -266,4 +270,53 @@ video {
   top: 0;
   right: 0;
   padding: 10px;
+}
+
+.table-container {
+  display: flex;
+  overflow-y: auto;
+  height: 500px;
+  /* justify-content: center; */
+}
+
+.table-container thead th {
+  position: sticky;
+  top: 0px;
+}
+
+th,
+td {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: rgba(177, 177, 177, 0.644)/* #eee */;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  /* background-color: rgba(255, 255, 255, 0.575);
+  color: rgb(12, 12, 12); */
+  /* font-family: 'Courier New', Courier, monospace; */
+  width: 100%;
+  font-weight: bold;
+  /* text-align: left; */
+}
+
+.table-container thead th {
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.table-container tbody td {
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: /*rgba(255, 255, 255, 0.575)*/rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-weight: 500;
+    padding-left: 10px;
+    text-align: center;
 }

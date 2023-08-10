@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "64ca1a142f516f08484825c7"
+  },
+  "processID": 1,
+  "processArea": "Forecast To Stock",
+  "imageSrc": "/images/processes/ForecastToStock.png"
+},
+{
+  "_id": {
+    "$oid": "64ca1a142f516f08484825c8"
+  },
+  "processID": 2,
+  "processArea": "IT Operations",
+  "imageSrc": "/images/processes/ITOperations.png"
+},
+{
+  "_id": {
+    "$oid": "64ca1a142f516f08484825c9"
+  },
+  "processID": 3,
+  "processArea": "Lead To Cash",
+  "imageSrc": "/images/processes/LeadToCash.png"
+},
+{
+  "_id": {
+    "$oid": "64ca1a142f516f08484825ca"
+  },
+  "processID": 4,
+  "processArea": "Record To Report",
+  "imageSrc": "/images/processes/RecordToReport.png"
+},
+{
+  "_id": {
+    "$oid": "64ca1a142f516f08484825cb"
+  },
+  "processID": 5,
+  "processArea": "Source To Settle",
+  "imageSrc": "/images/processes/SourceToSettle.png"
+}]

@@ -1,0 +1,828 @@
+[{
+  "_id": {
+    "$oid": "64ca44812f516f08484825fc"
+  },
+  "useCaseID": 1,
+  "processArea": "IT Operations",
+  "character": "Abomination",
+  "name": "Verify and Update the Employee Role",
+  "processScenario": "Verify and Update the Employee Role in ERP system",
+  "summaryAsIsProcess": "Manually check the statuses of the open purchase orders and update the same in the user requested excel sheet",
+  "automationScope": "Automatically download the ticket details and verify the details in ERP system and send the mail to the requestor about the status",
+  "functionality": "Access",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/Abomination.png",
+  "processFlowIcon": "/images/processFlows/icons/Abomination.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Abomination.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EfKmwMXx2kVPlTyBw84jR3IBaxjZkL_VFfh8b3fb3neuyg?e=WI0Thh"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f08484825fd"
+  },
+  "useCaseID": 2,
+  "processArea": "Source To Settle",
+  "character": "Absorbing Man",
+  "name": "Checking the status of PO",
+  "processScenario": "Checking the status of Purchase Orders in ERP system",
+  "summaryAsIsProcess": "Manually identify the Pricing changes from Excel sheet and update the changes in the respective Purchase Order. Also, update the contract price and the \"validity from date\"",
+  "automationScope": "Automatically check the statuses of the open purchase orders and update the same in the user requested excel sheet",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/AbsorbingMan.png",
+  "processFlowIcon": "/images/processFlows/icons/AbsorbingMan.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/AbsorbingMan.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EYuGHrpF0PdBpe8TU49UbEMBuJ6lyHJhzfft_2jbbAekFw?e=aJehyw"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f08484825fe"
+  },
+  "useCaseID": 3,
+  "processArea": "Source To Settle",
+  "character": "Anaconda",
+  "name": "Update Purchase Order Price",
+  "processScenario": "Update Purchase Order Price",
+  "summaryAsIsProcess": "1)Manually download ticket data from Service now \n2)Validate the details from ERP\n3)Check GRC report for violations, send mail for Approval and upadate the status of ticket",
+  "automationScope": "Automatically update purchase order price & contract price changes in Purchase Order and also update the Contract Price Validity from date",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/Anaconda.png",
+  "processFlowIcon": "/images/processFlows/icons/Anaconda.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Anaconda.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/Eehfs7XEBD9BtP-Yjq1f3wsB_NDlHEJIr21KKXp6_iA9ag?e=ujyMf2"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f08484825ff"
+  },
+  "useCaseID": 4,
+  "processArea": "IT Operations",
+  "character": "Ancient One",
+  "name": "Check the violations using GRC report",
+  "processScenario": "Download Governance Risk and Compliance (GRC) Report and check for violations",
+  "summaryAsIsProcess": "Manually attach the customer purchase orders to sales orders in the ERP system",
+  "automationScope": "Automatically download the ticket details, validate the details, check for violations, send approval Email and update the ticket status",
+  "functionality": "Access",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/AncientOne.png",
+  "processFlowIcon": "/images/processFlows/icons/AncientOne.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/AncientOne.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EXFUaJ_T-V9InKvGSWSpZOYBs-Q7SG2yB0S36ZJWke9n0w?e=xgaJjX"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482600"
+  },
+  "useCaseID": 5,
+  "processArea": "Lead To Cash",
+  "character": "Ant Man",
+  "name": "Attach Customer Purchase Orders to Sales orders",
+  "processScenario": "Attach Customer Purchase Orders to Sales orders",
+  "summaryAsIsProcess": "1) Manually download the Accounts Receivable (AR) reports from ERP for all customers and all company codes. \n2) If AR is ageing more than 30 days, send a mail to the team",
+  "automationScope": "Automatically attach the customer purchase orders to sales orders in the ERP system",
+  "functionality": "Order management",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/AntMan.png",
+  "processFlowIcon": "/images/processFlows/icons/AntMan.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/AntMan.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EXmGVeF3f3lKhiVV6TZmpFkBlBtagdxg399HhZE8vmu1zQ?e=TvffsX"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482601"
+  },
+  "useCaseID": 6,
+  "processArea": "Lead To Cash",
+  "character": "Black Knight",
+  "name": "Generate AR Ageing Report",
+  "processScenario": "Generate AR Ageing Report",
+  "summaryAsIsProcess": "1) Manually download the Accounts Payable (AP) reports from ERP for all customers and all company codes. \n2) If APis ageing more than 30 days, send a mail to the team",
+  "automationScope": "Automatically download the Accounts Receivable (AR) data and email to the team for AR ageing > 30 days",
+  "functionality": "Accounts receivable",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/BlackKnight.png",
+  "processFlowIcon": "/images/processFlows/icons/BlackKnight.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/BlackKnight.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ERnDbGGdalVKs8BZrf0CH0MBUneoD4C_yBTGNytIZiKa7w?e=24Wqbq"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482602"
+  },
+  "useCaseID": 7,
+  "processArea": "Source To Settle",
+  "character": "Black Panther",
+  "name": "Generate AP Ageing Report",
+  "processScenario": "Generate AP Ageing Report",
+  "summaryAsIsProcess": "Manually create Payment Run trasaction for different companies by entering data into ERP",
+  "automationScope": "Automatically download the Accounts Payable (AP) data and email to the team for AP ageing > 30 days",
+  "functionality": "Accounts payable",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/BlackPanther.png",
+  "processFlowIcon": "/images/processFlows/icons/BlackPanther.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/BlackPanther.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ESb_fPyv4BNAoFMXEcal16IBRX0z6pcy5mKIOV5z_yrnMQ?e=WrIZHF"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482603"
+  },
+  "useCaseID": 8,
+  "processArea": "Record To Report",
+  "character": "Black Widow",
+  "name": "Create Payment Run transaction",
+  "processScenario": "Create Payment Run transaction",
+  "summaryAsIsProcess": "Manually convert the stockist/distributor's purchase order which is in PDF format to sale order",
+  "automationScope": "Automatically create payment run transaction for different companies in ERP system",
+  "functionality": "Finance",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/BlackWidow.png",
+  "processFlowIcon": "/images/processFlows/icons/BlackWidow.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/BlackWidow.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EWz2YMYISXRNkprbScRVNTgBF0p6itQZM_ZbQqX9b5LnqQ?e=YxKF8M"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482604"
+  },
+  "useCaseID": 9,
+  "processArea": "Lead To Cash",
+  "character": "Captain America",
+  "name": "SO creation via PDF",
+  "processScenario": "Convert Distributors (PDF) Orders to Sales Order",
+  "summaryAsIsProcess": "Manually validate customer maintenance request and its processing in ERP system",
+  "automationScope": "Automatically convert the distributor's purchase order which is in PDF format to sale order",
+  "functionality": "Order management",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/CaptainAmerica.png",
+  "processFlowIcon": "/images/processFlows/icons/CaptainAmerica.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/CaptainAmerica.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ERy0eRcyrRZCrrMFDyU5e3EBVdKWp8K7up1OXHLyvf2dcA?e=KXt4I4"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482605"
+  },
+  "useCaseID": 10,
+  "processArea": "Lead To Cash",
+  "character": "Captain Marvel",
+  "name": "Edit exiting Customer",
+  "processScenario": "Edit exiting Customer",
+  "summaryAsIsProcess": "Manually identify the Pricing changes based on vendor details for Items from the input excel sheet and update the changes in the purchase contract. Also, update the contract price \"validity from date\"",
+  "automationScope": "Automatically validate customer maintenance request and its processing in ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/CaptainMarvel.png",
+  "processFlowIcon": "/images/processFlows/icons/CaptainMarvel.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/CaptainMarvel.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/Ee4dOwhV8xJFqXjha7WE184BEZgM_oOnl237DzNr6fB-UA?e=P4BgR9"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482606"
+  },
+  "useCaseID": 11,
+  "processArea": "Source To Settle",
+  "character": "Chameleon",
+  "name": "Update Purchase Contract Price & Validity date",
+  "processScenario": "Update Purchase Contract Price & Validity date",
+  "summaryAsIsProcess": "Manually check the statuses of the open deliveries and update the same in the user requested excel sheet",
+  "automationScope": "Automatically update contract price in Purchase Contract for the Item and also update the contract Price Validity from date",
+  "functionality": "Purchase agreements",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/Chameleon.png",
+  "processFlowIcon": "/images/processFlows/icons/Chameleon.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Chameleon.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EYDtNdWuiO5Lvj0OJITo4CgBt6kyLmm6ktnjACNG7wpbLQ?e=PgfvaK"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482607"
+  },
+  "useCaseID": 12,
+  "processArea": "Lead To Cash",
+  "character": "Deadpool",
+  "name": "Checking the status of Deliveries",
+  "processScenario": "Checking the status of Deliveries in ERP system",
+  "summaryAsIsProcess": "Manually validate vendor maintenance request and process it in ERP",
+  "automationScope": "Automatically check the statuses of the open deliveries and update the same in the user requested excel sheet",
+  "functionality": "Outbound operations",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Deadpool.png",
+  "processFlowIcon": "/images/processFlows/icons/Deadpool.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Deadpool.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EfZ1j8IWoJNLsFUNu-3U9XIBu-mvgynJs3ioVrsrROoFZA?e=6t8sSK"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482608"
+  },
+  "useCaseID": 13,
+  "processArea": "Source To Settle",
+  "character": "Doctor Octopus",
+  "name": "Edit existing Vendor",
+  "processScenario": "Edit existing Vendor",
+  "summaryAsIsProcess": "Manually change the company code address",
+  "automationScope": "Automatically validate vendor maintenance request and process it in ERP",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/DoctorOctopus.png",
+  "processFlowIcon": "/images/processFlows/icons/DoctorOctopus.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/DoctorOctopus.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EQxppVknZ7pHvA36aUsNTj8BSJrMj7x3G373RaVCXAOs1A?e=pyB9rv"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482609"
+  },
+  "useCaseID": 14,
+  "processArea": "Forecast To Stock",
+  "character": "Doctor Strange",
+  "name": "Update Company Code Address",
+  "processScenario": "Update Company Code Address",
+  "summaryAsIsProcess": "Manually update the item footprint details and the dimensions of the each item in each unit of measure (Each, Case, Layer and Pallet) in JDA application",
+  "automationScope": "Automatically change the company code address",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/DoctorStrange.png",
+  "processFlowIcon": "/images/processFlows/icons/DoctorStrange.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/DoctorStrange.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EQEcRmJU5U5Cps-b3mFLRp4Bx6txIqu9bwgmbOnQVUxq_A?e=ZjhNIO"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848260a"
+  },
+  "useCaseID": 15,
+  "processArea": "Forecast To Stock",
+  "character": "Dormamu",
+  "name": "Update Item Dimensions",
+  "processScenario": "Update Item Dimensions",
+  "summaryAsIsProcess": "1)Manually downloading the Bank GL data\n2) Check for debit entries for customer\n3) Update the Receipt in the customer ledger",
+  "automationScope": "Automatically update the item footprint details and the dimensions of the each item in each unit of measure (Each, Case, Layer and Pallet) in JDA application",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Dormamu.png",
+  "processFlowIcon": "/images/processFlows/icons/Dormamu.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Dormamu.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EU9L7mHHg3VNo65_YJgys_sBL_RUCxjKguCvk1vSbTNeFw?e=fWycns"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848260b"
+  },
+  "useCaseID": 16,
+  "processArea": "Lead To Cash",
+  "character": "Falcon",
+  "name": "Download bank GL data and update the customer outstanding",
+  "processScenario": "Download bank GL data and update the customer outstanding",
+  "summaryAsIsProcess": "Manually create a plant in the ERP system based on the usage type and send the confirmation details to requester",
+  "automationScope": "Automatically download of Bank GL and fetch the receipt data and update the customer outstanding",
+  "functionality": "Accounts receivable",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/Falcon.png",
+  "processFlowIcon": "/images/processFlows/icons/Falcon.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Falcon.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EXzGfQkFGstCqgVJm9lphcABaW8CBFdQmvfOW8BZOKv5KQ?e=yeMn49"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848260c"
+  },
+  "useCaseID": 17,
+  "processArea": "Forecast To Stock",
+  "character": "Groot",
+  "name": "Plant Creation in ERP System",
+  "processScenario": "Plant Creation in ERP System",
+  "summaryAsIsProcess": "Manually change sales required delivery date and order quantity in sales inquiry in ERP system",
+  "automationScope": "Automatically create a plant in the ERP system based on the usage type and send the confirmation details to requester",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Groot.png",
+  "processFlowIcon": "/images/processFlows/icons/Groot.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Groot.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EembOvpupSBJkxklQYlofiAB-gKQbXfNKRea4BGY8_u-sg?e=JfUVuC"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848260d"
+  },
+  "useCaseID": 18,
+  "processArea": "Lead To Cash",
+  "character": "Hawkeye",
+  "name": "Sales Order updates",
+  "processScenario": "Change Sales Inquiry details in ERP system",
+  "summaryAsIsProcess": "Manually check the master data(BOM, Finance, Pricing etc) of the material",
+  "automationScope": "Automatically change sales required delivery date and order quantity in sales inquiry in ERP system",
+  "functionality": "Sales Enquiry",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Hawkeye.png",
+  "processFlowIcon": "/images/processFlows/icons/Hawkeye.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Hawkeye.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EdbLjgyNgplCmoS4LmfVIvoBHWVftKqzBcqzHGkUvsdaIw?e=ZluFUc"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848260e"
+  },
+  "useCaseID": 19,
+  "processArea": "Forecast To Stock",
+  "character": "Hulk",
+  "name": "Validate BOM and Routing for new products",
+  "processScenario": "Validate BOM and Routing for new products",
+  "summaryAsIsProcess": "Manually change the Inco term in purchase order",
+  "automationScope": "Automatically check the master data(BOM, Finance, Pricing etc) of the material",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/Hulk.png",
+  "processFlowIcon": "/images/processFlows/icons/Hulk.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Hulk.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ERQ79YaYOPNFhlq-qrFhsK0B2XeiiNmbm30xZzWlUiexIA?e=rDQWUl"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848260f"
+  },
+  "useCaseID": 20,
+  "processArea": "Source To Settle",
+  "character": "Iron Man",
+  "name": "Update Inco term in purchase order",
+  "processScenario": "Update Inco term in purchase order",
+  "summaryAsIsProcess": "Manually update the standard invoice template with the vendor and invoice details and notify the vendor about the payment details in a email",
+  "automationScope": "Automatically change the Inco term in purchase order",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/IronMan.png",
+  "processFlowIcon": "/images/processFlows/icons/IronMan.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/IronMan.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EcLE7wHm3thFvjfssC6YvBwBpW7TZ97JOM9MEvLMNjaKFA?e=GuD2Ia"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482610"
+  },
+  "useCaseID": 21,
+  "processArea": "Source To Settle",
+  "character": "Jane Foster",
+  "name": "Payment Processing for vendors",
+  "processScenario": "Payment Processing for vendors",
+  "summaryAsIsProcess": "Manually update the warehouse details for the open sales orders from the material master data",
+  "automationScope": "Automatically update the standard invoice template with the vendor and invoice details and notify the vendor about the payment details in a email",
+  "functionality": "Accounts payable",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/JaneFoster.png",
+  "processFlowIcon": "/images/processFlows/icons/JaneFoster.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/JaneFoster.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EafuFlPfxp1CkTNEVel4tlABRqyXaSDlzjfyVMGIfNZ9kQ?e=hb0KNp"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482611"
+  },
+  "useCaseID": 22,
+  "processArea": "Lead To Cash",
+  "character": "Korg",
+  "name": "Update the warehouse details in the sales order",
+  "processScenario": "Update the warehouse details in the sales order",
+  "summaryAsIsProcess": "Manually validate the new customer request and create new customer in ERP system",
+  "automationScope": "Automatically update the warehouse details for the open sales orders from the material master data",
+  "functionality": "Order management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Korg.png",
+  "processFlowIcon": "/images/processFlows/icons/Korg.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Korg.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EYJtQfOM8SJGtIS7FAGZ1jYBV0MY8pPBSFUQLT3MJPIGcQ?e=2fAHmk"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482612"
+  },
+  "useCaseID": 23,
+  "processArea": "Lead To Cash",
+  "character": "Marvel Girl",
+  "name": "Create new Customer",
+  "processScenario": "Create new Customer",
+  "summaryAsIsProcess": "Manually download the data and reconcile the GR(goods receipt)/ & IR(Invoice receipt) amount and update the status",
+  "automationScope": "Automatically validate the new customer request and create new customer in ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/MarvelGirl.png",
+  "processFlowIcon": "/images/processFlows/icons/MarvelGirl.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/MarvelGirl.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EYcu9FpL2FFBo4cHpoHH0oABH30L8rjo8BSG07kW7krVuw?e=9EwfiX"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482613"
+  },
+  "useCaseID": 24,
+  "processArea": "Source To Settle",
+  "character": "Medusa",
+  "name": "GR IR Reconciliation",
+  "processScenario": "Reconcile Goods Receipt & Invoice Receipt",
+  "summaryAsIsProcess": "Manually change the 'Delivery quantity' and 'Planned goods movement date' of Outbound delivery in ERP system",
+  "automationScope": "Automatically download the Transaction Detais, GR/IR reports",
+  "functionality": "GR/IR",
+  "rpaToolUsed": "Automation Anywhere",
+  "botImageSrc": "/images/bots/Medusa.png",
+  "processFlowIcon": "/images/processFlows/icons/Medusa.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Medusa.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ESb-GAFIjCVElcx4RXBz6IkBVmBMtVqDuLeRcJk8SjBNGw?e=3kLxwM"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482614"
+  },
+  "useCaseID": 25,
+  "processArea": "Lead To Cash",
+  "character": "Modok",
+  "name": "Outbound Delivery Updates",
+  "processScenario": "Change Outbound delivery details in ERP system",
+  "summaryAsIsProcess": "Manually capture PO ageing data using Delivery on Time(DOT) and notify suppliers",
+  "automationScope": "Automatically change the 'Delivery quantity' and 'Planned goods movement date' of Outbound delivery in ERP system",
+  "functionality": "Outbound operations",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Modok.png",
+  "processFlowIcon": "/images/processFlows/icons/Modok.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Modok.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EVuiB4fNjaJIqc4mjUaOzK4BDW49k0WJGEnyqBOL5yCJew?e=y6Rv0g"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482615"
+  },
+  "useCaseID": 26,
+  "processArea": "Source To Settle",
+  "character": "Moon Knight",
+  "name": "Identify and notify PO ageing using Delivery on Time(DOT)",
+  "processScenario": "Identify and notify PO ageing using Delivery on Time(DOT)",
+  "summaryAsIsProcess": "Manually block/unblock the customers in the ERP system",
+  "automationScope": "Automatically capture PO ageing data using Delivery on Time(DOT) and notify suppliers",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/MoonKnight.png",
+  "processFlowIcon": "/images/processFlows/icons/MoonKnight.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/MoonKnight.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EaTA3m8ID1pEmYH6ybbN0gwBEHOjL2Ohqx8Eko4ObPKknQ?e=fVe45E"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482616"
+  },
+  "useCaseID": 27,
+  "processArea": "Lead To Cash",
+  "character": "Nebula",
+  "name": "Block/Unblock Customer",
+  "processScenario": "Block/Unblock Customer",
+  "summaryAsIsProcess": "Manually lock/unlock the user (IT) profiles",
+  "automationScope": "Automatically block/unblock of the customers in the ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Nebula.png",
+  "processFlowIcon": "/images/processFlows/icons/Nebula.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Nebula.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EVAb8Dt8DQhOk8LvzAFPgVIB_lcejj8IavjD6Gp1IUl5yQ?e=7HcYDe"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482617"
+  },
+  "useCaseID": 28,
+  "processArea": "IT Operations",
+  "character": "Nick Fury",
+  "name": "Lock/Unlock the existing user",
+  "processScenario": "Lock/Unlock the existing user",
+  "summaryAsIsProcess": "Manually change the storage location address",
+  "automationScope": "Automatically lock/unlock the user (IT) profiles",
+  "functionality": "Access",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/NickFury.png",
+  "processFlowIcon": "/images/processFlows/icons/NickFury.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/NickFury.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ESYQ0VdSgq9AjuSooko7vOIBY4YiZuNhSIRrJEU26fAG_g?e=djVXN5"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482618"
+  },
+  "useCaseID": 29,
+  "processArea": "Forecast To Stock",
+  "character": "North Star",
+  "name": "Update Storage Location Address",
+  "processScenario": "Update Storage Location Address",
+  "summaryAsIsProcess": "Manually post each and every GL data in different Accounting priniciple and create International Financial Reporting Standard (IFRS-16) report",
+  "automationScope": "Automatically change the storage location address",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/NorthStar.png",
+  "processFlowIcon": "/images/processFlows/icons/NorthStar.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/NorthStar.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EUhkcbOP0GFArISJfjWil9ABHWKzebYIIbsyd-cfLWPdrA?e=SyRXbA"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482619"
+  },
+  "useCaseID": 30,
+  "processArea": "Record To Report",
+  "character": "Nova",
+  "name": "Create IFRS 16 report",
+  "processScenario": "Create International Finance Reporting Standards-16 report",
+  "summaryAsIsProcess": "Manually assign roles for the user (IT) profiles",
+  "automationScope": "Automatically post each and every financial entry in different Accounting priniciple and create IFRS-16 report",
+  "functionality": "G/L Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Nova.png",
+  "processFlowIcon": "/images/processFlows/icons/Nova.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Nova.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ERGO1IotIaxJtBU4ZaIZ3IoBCWV_Dza_idBxTvoo67VnXg?e=YemvDP"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848261a"
+  },
+  "useCaseID": 31,
+  "processArea": "IT Operations",
+  "character": "Ophelia",
+  "name": "Assign Roles to user profiles",
+  "processScenario": "Assign Roles to user profiles",
+  "summaryAsIsProcess": "Manually block/unblock the vendors in the ERP system",
+  "automationScope": "Automatically assign roles for the user (IT) profiles",
+  "functionality": "Access",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Ophelia.png",
+  "processFlowIcon": "/images/processFlows/icons/Ophelia.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Ophelia.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ERcTGp0uBdRFkTScaFS6kXkBG8zsGkhziMV---3ZHxF59Q?e=5RmBbg"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848261b"
+  },
+  "useCaseID": 32,
+  "processArea": "Source To Settle",
+  "character": "Phoenix Force",
+  "name": "Block/Unblock vendor",
+  "processScenario": "Block/Unblock vendor",
+  "summaryAsIsProcess": "Manually reconcile the master data obtained from the different ERP system",
+  "automationScope": "Automatically block/unblock the vendors in the ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/PhoenixForce.png",
+  "processFlowIcon": "/images/processFlows/icons/PhoenixForce.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/PhoenixForce.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/Eb97vBHw8c9Ah0DvxFISjywBXI0Nv_dD8UXT21oJ5cdlXw?e=esWnth"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848261c"
+  },
+  "useCaseID": 33,
+  "processArea": "Forecast To Stock",
+  "character": "Quasar",
+  "name": "Reconcile Master data",
+  "processScenario": "Reconcile Master data",
+  "summaryAsIsProcess": "Manually compare the PDF remittance advice from retailer and clear invoices",
+  "automationScope": "Automatically reconcile the master data obtained from the different ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Quasar.png",
+  "processFlowIcon": "/images/processFlows/icons/Quasar.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Quasar.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EdADM4KumeRHvrvTuK-pJMsBYqMNn4nnJVS1ZckhehWbSA?e=EgzyVs"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848261d"
+  },
+  "useCaseID": 34,
+  "processArea": "Lead To Cash",
+  "character": "Quick Silver",
+  "name": "Customer Invoice Clearing w.r.t remittance advice",
+  "processScenario": "Automate Customer Invoice Clearing wrt Remittance advice",
+  "summaryAsIsProcess": "Manually reconcile the costing data obtained from the different ERP system",
+  "automationScope": "Automatically compare the PDF remittance advice from retailer and clear invoices",
+  "functionality": "Accounts receivable",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/QuickSilver.png",
+  "processFlowIcon": "/images/processFlows/icons/QuickSilver.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/QuickSilver.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EQNXR7L6lPpDl5_lZKX_QckBaPBHO_Y5EwIUPFLhvCIGgA?e=54QU3a"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848261e"
+  },
+  "useCaseID": 35,
+  "processArea": "Forecast To Stock",
+  "character": "Rocket Raccoon",
+  "name": "Reconcile Costing data",
+  "processScenario": "Reconcile Costing data",
+  "summaryAsIsProcess": "Manually reconcile the pricing data obtained from the different ERP system",
+  "automationScope": "Automatically reconcile the costing data obtained from the different ERP system",
+  "functionality": "Reconciliation",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/RocketRaccoon.png",
+  "processFlowIcon": "/images/processFlows/icons/RocketRaccoon.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/RocketRaccoon.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EXHgeJAECbZEhlLbbGhae-8B9SUieGl5yb-ighvSg6vfKQ?e=p11m4u"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f084848261f"
+  },
+  "useCaseID": 36,
+  "processArea": "Forecast To Stock",
+  "character": "S.H.I.E.L.D.",
+  "name": "Reconcile Pricing Data",
+  "processScenario": "Reconcile Pricing Data",
+  "summaryAsIsProcess": "Manually Short Close the Purchase Order by checking the delivery completion Flag",
+  "automationScope": "Automatically reconcile the pricing data obtained from the different ERP system",
+  "functionality": "Reconciliation",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/S.H.I.E.L.D.png",
+  "processFlowIcon": "/images/processFlows/icons/S.H.I.E.L.D.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/S.H.I.E.L.D.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/Eekp89pbb3ZNgE3-pxmJ0ioBKrHHJ6viIpfLKV8HsjDmRw?e=3mH2Yl"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482620"
+  },
+  "useCaseID": 37,
+  "processArea": "Source To Settle",
+  "character": "Sandman",
+  "name": "PO Short Closure",
+  "processScenario": "Automate Purchase Order Short Closure",
+  "summaryAsIsProcess": "Manually update the validity date to terminate the user",
+  "automationScope": "Automatically short close the purchase orders by checking the delivery completion Flag",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/Sandman.png",
+  "processFlowIcon": "/images/processFlows/icons/Sandman.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Sandman.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EcxTiR8uC4FCseBgvA_23S8B3Kw7NXLMogHzBp-bX15TfA?e=ASmNuD"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482621"
+  },
+  "useCaseID": 38,
+  "processArea": "IT Operations",
+  "character": "Shang Chi",
+  "name": "Terminate User",
+  "processScenario": "Terminate User",
+  "summaryAsIsProcess": "Manually download the data and create/update the contract based on the request",
+  "automationScope": "Automatically update the validity date to terminate the user in ERP system",
+  "functionality": "Access",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/ShangChi.png",
+  "processFlowIcon": "/images/processFlows/icons/ShangChi.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/ShangChi.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EUTHQvV45pBJnXGzVPX8d-QBMGGicx91lSzN7O3ki-kvhQ?e=73RTNY"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482622"
+  },
+  "useCaseID": 39,
+  "processArea": "Source To Settle",
+  "character": "Spider Man",
+  "name": "Create and Update Purchase Contracts",
+  "processScenario": "Create and Update Purchase Contracts",
+  "summaryAsIsProcess": "1)Manually download the customer AR details\n2) Identify the payment term, rebate under the payment term and validity period\n3)Notify the customer of rebate offered and payment due date",
+  "automationScope": "Automatally download the data from E-mail and create/update the contract based on the request",
+  "functionality": "Purchase agreements",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/SpiderMan.png",
+  "processFlowIcon": "/images/processFlows/icons/SpiderMan.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/SpiderMan.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EUMA-RBfO49ArU6hKitT_0sBSZmKrHgGTJ_vv4UcZ6ia1w?e=Xxk1Io"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482623"
+  },
+  "useCaseID": 40,
+  "processArea": "Lead To Cash",
+  "character": "Spider Woman",
+  "name": "Customer intimation for due date and outstanding",
+  "processScenario": "Notify Customer on payment due date and advance payment rebates",
+  "summaryAsIsProcess": "Manually validate new vendor request and if valid, create new vendor in ERP system",
+  "automationScope": "Automatically download the customer's AR details, identify payment terms, calculate discounted amount and notify the customer",
+  "functionality": "Accounts receivable",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/SpiderWoman.png",
+  "processFlowIcon": "/images/processFlows/icons/SpiderWoman.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/SpiderWoman.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EemmCUMlLUBBpCemKb-HIY0B_wmUEz-uFkwQQDmA1rtfBQ?e=tJQqzt"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482624"
+  },
+  "useCaseID": 41,
+  "processArea": "Source To Settle",
+  "character": "Thanos",
+  "name": "Create new vendor",
+  "processScenario": "Create new Vendor",
+  "summaryAsIsProcess": "1) Manually download the product details from Email\n2) Reconcile the product details from Customer's master database\n3) Manually upload the new product details in company distribution system",
+  "automationScope": "Automatically validate new vendor request and if valid, create new vendor in ERP system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Thanos.png",
+  "processFlowIcon": "/images/processFlows/icons/Thanos.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Thanos.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ESeyoxXNMDVDjEjQy70OxmgBjweoLN5TxpHtlEvEaFJoNQ?e=kyf7vj"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482625"
+  },
+  "useCaseID": 42,
+  "processArea": "Lead To Cash",
+  "character": "Thor",
+  "name": "Reconcile product details",
+  "processScenario": "Download and reconcile product details between Manufacturing & Distribution systems",
+  "summaryAsIsProcess": "Manually create purchase requisition to purchase an asset in the ERP system",
+  "automationScope": "Automatically download the product details, reconcile them with the Customer's master database and update the product details in company distribution system",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Thor.png",
+  "processFlowIcon": "/images/processFlows/icons/Thor.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Thor.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ETm_nH2s9eFItJyJUU-VZCsBJaIP-j32kwkvJzPmOV2-SQ?e=gCYVVd"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482626"
+  },
+  "useCaseID": 43,
+  "processArea": "Record To Report",
+  "character": "Thunderball",
+  "name": "Create Asset purchase request",
+  "processScenario": "Create Asset purchase request",
+  "summaryAsIsProcess": "Manually create the requested user (IT) profiles",
+  "automationScope": "Automatically create purchase requisition to purchase an asset in the ERP system",
+  "functionality": "Asset Management",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Thunderball.png",
+  "processFlowIcon": "/images/processFlows/icons/Thunderball.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Thunderball.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ETqOgFTF8zJOkx-MWFvlpuoBRmivetFAy9M0RZZ1TdmmIg?e=iqPnZR"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482627"
+  },
+  "useCaseID": 44,
+  "processArea": "IT Operations",
+  "character": "Ultron",
+  "name": "Create new IT user",
+  "processScenario": "Create new IT user",
+  "summaryAsIsProcess": "Manually create standard plant code creation for Procurement/goods receivable/Quality Checks,sub contracting to make the plant operational quickly",
+  "automationScope": "Automatically create the requested user (IT) profiles",
+  "functionality": "Access",
+  "rpaToolUsed": "Blue Prism",
+  "botImageSrc": "/images/bots/Ultron.png",
+  "processFlowIcon": "/images/processFlows/icons/Ultron.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Ultron.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/ETqQgGtucwdFkVhMjDqA7OIBx9o8nuLi4WVrPKenTgC-ng?e=Nunnmb"
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482628"
+  },
+  "useCaseID": 45,
+  "processArea": "Forecast To Stock",
+  "character": "Vision",
+  "name": "Create standard plant code in ERP system",
+  "processScenario": "Create standard plant code in ERP system",
+  "summaryAsIsProcess": "Manually perform mass updation/closure/deletion of the Purchase Orders",
+  "automationScope": "Automatically create standard plant code creation for Procurement/goods receivable/Quality Checks,sub contracting to make the plant operational quickly",
+  "functionality": "Master Data Management",
+  "rpaToolUsed": "UI Path",
+  "botImageSrc": "/images/bots/Vision.png",
+  "processFlowIcon": "/images/processFlows/icons/Vision.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Vision.png",
+  "processMapVideo": ""
+},
+{
+  "_id": {
+    "$oid": "64ca44812f516f0848482629"
+  },
+  "useCaseID": 46,
+  "processArea": "Source To Settle",
+  "character": "Warlock",
+  "name": "Perform Mass PO Update",
+  "processScenario": "Perform Mass PO Update",
+  "summaryAsIsProcess": "Manually perform mass updation/closure/deletion of the Purchase Orders ",
+  "automationScope": "Automatically perform mass updation/closure/deletion of the Purchase Orders",
+  "functionality": "Purchase order management",
+  "rpaToolUsed": "AA",
+  "botImageSrc": "/images/bots/Warlock.png",
+  "processFlowIcon": "/images/processFlows/icons/Warlock.png",
+  "processFlowEnlarged": "/images/processFlows/enlarged/Warlock.png",
+  "processMapVideo": "https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EXE5cUkDvMpKg5j8KmbMgEABFm9sLAaOAFkU6Y4Ue7lS5Q?e=R73O5V"
+}]

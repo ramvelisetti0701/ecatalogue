@@ -35,7 +35,8 @@ function HomePage() {
     return (
         <div className='homepage-container'>
             <div className='navbar'>
-                <Link to={`/ecatalogue/allCharacters`}>All Bots</Link>
+                <Link to={`/ecatalogue/allCharacters`}>All Bots</Link><br></br>
+                <Link to={`/ecatalogue/allBots`}>Bots at A Glance</Link>
             </div>
             <h1>Autovention eCatalogue</h1>
             <div className='content'>
