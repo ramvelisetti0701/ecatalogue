@@ -1,11 +1,18 @@
 import React, { Suspense } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import fallbackData from '../fallbackdata/characters.json';
 
 
-function AllCharacters() {
+function CharacterPage() {
+    const { processArea } = useParams();
+
+    console.log("Process Area : " + processArea);
+
+    const filteredFallbackData = fallbackData.filter(character => character.processArea === processArea);
     
-    const allCharacters = fallbackData;
+    //const [charsByProcessArea, setCharsByProcessArea] = useState([]);
+
+    const charsByProcessArea = filteredFallbackData;
 
     //useEffect(() => {
         /* async function fetchData() { 
@@ -33,21 +40,17 @@ function AllCharacters() {
     //}, [processArea, filteredFallbackData]);
 
     return (
-        <div className='homepage-container'>
-            <h1>Use Case</h1>
+        <div>
+            <h1>{ processArea } Use Case</h1>
             {/* <p>Character content for image {id}</p> */}
             <div className='navbar'>
                 <Link to="/ecatalogue">HomePage</Link><br></br>
             </div>
-            <div className="char-img-grid">
-                {allCharacters.map((character) => (
+            <div className="char-image-grid">
+                {charsByProcessArea.map((character) => (
                     <Link key={character.characterID} to={`/ecatalogue/useCases/${character.character}`}>
                         <Suspense fallback={<div>Loading...</div>}>
-                            <img
-                                src={process.env.PUBLIC_URL + character.botImageSrc}
-                                alt={character.character}
-                                style={{ maxWidth: '100%', height: 'auto' }}
-                            />
+                            <img src={process.env.PUBLIC_URL + character.botImageSrc} alt={character.character} />
                             <div className='image-title'>{character.character}</div>
                         </Suspense>
                     </Link>
@@ -57,4 +60,4 @@ function AllCharacters() {
     );
 }
 
-export default AllCharacters;
+export default CharacterPage;

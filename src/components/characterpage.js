@@ -40,7 +40,7 @@ function CharacterPage() {
     //}, [processArea, filteredFallbackData]);
 
     return (
-        <div>
+        <div className='homepage-container'>
             <h1>{ processArea } Use Case</h1>
             {/* <p>Character content for image {id}</p> */}
             <div className='navbar'>
@@ -50,7 +50,11 @@ function CharacterPage() {
                 {charsByProcessArea.map((character) => (
                     <Link key={character.characterID} to={`/ecatalogue/useCases/${character.character}`}>
                         <Suspense fallback={<div>Loading...</div>}>
-                            <img src={process.env.PUBLIC_URL + character.botImageSrc} alt={character.character} />
+                            <img
+                                src={process.env.PUBLIC_URL + character.botImageSrc}
+                                alt={character.character}
+                                style={{ maxWidth: '100%', height: 'auto' }}
+                            />
                             <div className='image-title'>{character.character}</div>
                         </Suspense>
                     </Link>

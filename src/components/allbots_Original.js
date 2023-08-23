@@ -27,7 +27,7 @@ function AllBots() {
     }
 
     return (
-        <div className='homepage-container'>
+        <div>
             <div className='navbar'>
                 <Link to={`/ecatalogue/allCharacters`}>All Bots</Link><br></br>
                 <Link to="/ecatalogue">HomePage</Link>
@@ -55,11 +55,7 @@ function AllBots() {
                                 <td>
                                     <Link key={bot._id} to={`/ecatalogue/useCases/${bot.character}`}>
                                         <Suspense fallback={<div>Loading...</div>}>
-                                            <img
-                                                alt={bot.character}
-                                                src={process.env.PUBLIC_URL + bot.botIconsSrc}
-                                                style={{ maxWidth: '100%', height: 'auto' }}
-                                            />
+                                            <img alt={bot.character} src={process.env.PUBLIC_URL + bot.botIconsSrc} />
                                         </Suspense>    
                                     </Link>
                                 </td>

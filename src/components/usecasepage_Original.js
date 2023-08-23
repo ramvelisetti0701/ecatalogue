@@ -16,6 +16,31 @@ function UseCasePage() {
 
     const useCaseByCharacter = filteredFallbackData[0];
 
+    //useEffect(() => {
+        /* async function fetchData() { 
+            try {
+                console.log("== BEFORE Call ==");
+                const data = await fetch(`http://localhost:4000/useCases/${character}`);
+
+                if (!data.ok) {
+                    throw new Error('Fetch failed');
+                }
+
+                console.log("== AFTER Call ==");
+                const items = await data.json();
+                console.log('UseCaseByCharacter : ' + items[0].character);
+                setuseCaseByCharacter(items[0]);
+            } catch (error) {
+                console.log('Fetch error : ', error);
+                //const fallbackData = require('../fallbackdata/useCases.json'); */
+
+                //console.log("Filtered Data Length : " + filteredFallbackData.length);
+                //setuseCaseByCharacter(filteredFallbackData[0]);
+            /* }
+        }
+        fetchData(); */
+    //}, [filteredFallbackData]); 
+
     const [isImageOpen, setIsImageOpen] = useState(false);
     /* const [isVideoOpen, setIsVideoOpen] = useState(false); */
     const sharepointUrl = useCaseByCharacter.processMapVideo;
@@ -38,7 +63,7 @@ function UseCasePage() {
     };
 
     return ( 
-        <div className='homepage-container'>
+        <div>
             <div>
                 <h1>{character}</h1>
                 <div className='navbar'>
@@ -48,11 +73,7 @@ function UseCasePage() {
                 <div className="image-title-container">
                     <div className="image-container">
                         <Suspense fallback={<div>Loading...</div>}>
-                            <img
-                                src={process.env.PUBLIC_URL + useCaseByCharacter.botImageSrc}
-                                alt={useCaseByCharacter.character}
-                                style={{ maxWidth: '100%', height: 'auto' }}
-                            />
+                            <img src={process.env.PUBLIC_URL + useCaseByCharacter.botImageSrc} alt={useCaseByCharacter.character} />
                         </Suspense>
                     </div>
                     <div className="title-info-container">
@@ -95,29 +116,12 @@ function UseCasePage() {
                     </div>
                     {(useCaseByCharacter.processFlowIcon) ? (
                         <div className="body-item">
-                            <p><b>Process Map : </b>
-                                <img
-                                    alt={character}
-                                    className='icon'
-                                    src={process.env.PUBLIC_URL + useCaseByCharacter.processFlowIcon}
-                                    onClick={openImageOverlay}
-                                    style={{ maxWidth: '100%', height: 'auto' }}
-                                />
-                            </p>
+                            <p><b>Process Map : </b> <img alt={character} className='icon' src={process.env.PUBLIC_URL + useCaseByCharacter.processFlowIcon} onClick={openImageOverlay} /></p>
                         </div>
                     ) : null}
                     {(useCaseByCharacter.processMapVideo) ? (
                         <div className="body-item">
-                            <p><b>SAP Process Flow : </b>
-                                <a href={sharepointUrl} target="_blank" rel="noopener noreferrer" onClick={handleVideoLaunch}>
-                                    <img
-                                        alt={character}
-                                        className='icon'
-                                        src={process.env.PUBLIC_URL + '/video.png'}
-                                        style={{ maxWidth: '100%', height: 'auto' }}
-                                    />
-                                </a>
-                            </p>
+                            <p><b>SAP Process Flow : </b> <a href={ sharepointUrl } target="_blank" rel="noopener noreferrer" onClick={ handleVideoLaunch }><img alt={ character } className='icon' src={process.env.PUBLIC_URL + '/video.png'}/></a></p>
                             {/* <p><b>SAP Process Flow : </b> <a href='https://tcscomprod.sharepoint.com/:v:/s/AUTOMATION362/EfKmwMXx2kVPlTyBw84jR3IBaxjZkL_VFfh8b3fb3neuyg?e=WI0Thh' target="_blank" rel="noopener noreferrer" onClick={openVideoOverlay}><img alt={character} className='icon' src={process.env.PUBLIC_URL + '/video.png'} onClick={openVideoOverlay} /></a></p> */}
                         </div>
                     ) : null}

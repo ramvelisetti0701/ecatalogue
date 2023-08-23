@@ -45,9 +45,7 @@ function HomePage() {
                         <Link key={pArea.processArea} to={`/ecatalogue/characters/${pArea.processArea}`}>
                             <Suspense fallback={<div>Loading...</div>}>
                                 <img
-                                    src={process.env.PUBLIC_URL + pArea.imageSrc}
-                                    alt={pArea.processArea}
-                                />
+                                    src={process.env.PUBLIC_URL + pArea.imageSrc} alt={pArea.processArea} />
                                 <div className='image-title'>{pArea.processArea}</div>
                             </Suspense>
                         </Link>

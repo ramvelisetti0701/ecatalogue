@@ -2,8 +2,7 @@
 
 /* Primary Colors */
 :root {
-  /* background-image: url('/public/images/backgrounds/AdobeStock.jpeg'); */
-  background-image: url('/public/images/backgrounds/BG8.png');
+  background-image: url('/public/images/backgrounds/AdobeStock.jpeg');
   background-size: cover;
   --primary-color: white ;
   --secondary-color: steelblue;
@@ -120,12 +119,12 @@ article p {
 }
 
 .char-image-grid img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 .char-img-grid img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -185,7 +184,7 @@ article p {
 .body-box {
   display: grid;
   grid-template-rows: repeat(6,1fr);
-  gap: 4px;
+  gap: 8px;
 }
 
 .body-item {
@@ -320,125 +319,4 @@ table {
     font-weight: 500;
     padding-left: 10px;
     text-align: center;
-}
-
-/* Media query for screens with a max width of 768px */
-@media (max-width: 768px) {
-  :root {
-    /* background-image: url('/public/images/backgrounds/AdobeStock.jpeg'); */
-    background-image: url('/public/images/backgrounds/portrait/BG8.png');
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-  }
-
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center; /* Center align images */
-    gap: 10px; /* Adjust gap between images */
-  }
-
-  /* .image-grid img {
-    max-width: 50%;
-    height: auto;
-  } */
-
-  /* Adjust other styles as needed for smaller screens */
-
-  .char-img-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    text-align: center;
-  }
-  
-  .char-image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    text-align: center;
-  }
-
-  body {
-    margin: 10px; /* Reduce margin for smaller screens */
-  }
-
-  h1 {
-    font-size: 24px; /* Adjust font size for headings */
-  }
-
-  .button {
-    padding: 8px 12px; /* Adjust button padding */
-  }
-
-  .navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 5px;
-    font-size: x-small;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 50%;
-    font-weight: bold;
-  }
-  
-  .image-container {
-    width: 21%;
-    margin-right: 8px;
-  }
-
-  .image-title-container {
-    margin-bottom: 8px;
-  }
-  
-  /* .title-info-container {
-    flex: 0.5 0.5 auto;
-    display: flex;
-    flex-direction: column;
-  } */
-  
-  .title-box {
-    margin-bottom: 4px;
-  }
-
-  .title-box h2 {
-    font-size: 0.75em;
-  }
-
-  .info-container {
-    flex: 0.5 0.5 auto;
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-  }
-
-  .info-box h2 {
-    font-size: 0.75em;
-  }
-
-  .info-item {
-    width: 75px;
-    height: 25px;
-  }
-
-  .body-container {
-    margin-top: 8px;
-  }
-
-  .body-box {
-    gap: 2px;
-  }
-
-  .body-item {
-    padding-left: 4px;
-  }
-
-  .body-item p {
-    font-size: small;
-  }
-  /* Add more styles as needed for smaller screens */
 }

@@ -33,7 +33,7 @@ function AllCharacters() {
     //}, [processArea, filteredFallbackData]);
 
     return (
-        <div className='homepage-container'>
+        <div>
             <h1>Use Case</h1>
             {/* <p>Character content for image {id}</p> */}
             <div className='navbar'>
@@ -43,11 +43,7 @@ function AllCharacters() {
                 {allCharacters.map((character) => (
                     <Link key={character.characterID} to={`/ecatalogue/useCases/${character.character}`}>
                         <Suspense fallback={<div>Loading...</div>}>
-                            <img
-                                src={process.env.PUBLIC_URL + character.botImageSrc}
-                                alt={character.character}
-                                style={{ maxWidth: '100%', height: 'auto' }}
-                            />
+                            <img src={process.env.PUBLIC_URL + character.botImageSrc} alt={character.character} />
                             <div className='image-title'>{character.character}</div>
                         </Suspense>
                     </Link>
